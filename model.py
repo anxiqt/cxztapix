@@ -17,7 +17,7 @@ q_table = defaultdict(lambda: np.zeros(env.action_space.n))
 
 #parameters: learning rate, discount factor (greedy), exploration, decay, episdoes, steps...
 alpha = 0.1
-gamme = 0.99
+gamma= 0.99
 epsilon = 1.0
 epsilon_decay = 0.999
 min_epsilon = 0.01
