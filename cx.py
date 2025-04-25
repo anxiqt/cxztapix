@@ -1,3 +1,9 @@
+#IMPORT window.py
+import window
+
+
+
+
 class Agent:
     def __init__(self, name, role):
         self.name = name
@@ -51,17 +57,3 @@ if __name__ == "__main__":
         env.run_step()
 
 
-#import for window
-from tkinter import *
-
-window = Tk()
-
-#set title, size, color
-window.title("Agent")
-window.geometry("750x600")
-window.config(background="lightBlue")
-
-
-
-
-window.mainloop()
