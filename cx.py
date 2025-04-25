@@ -44,9 +44,9 @@ class Environment:
 
 # Example usage
 if __name__ == "__main__":
-    agent1 = Agent("Alice", "Analyst")
-    agent2 = Agent("Bob", "Planner")
-    agent3 = Agent("Charlie", "Executor")
+    agent1 = Agent("Agent1", "Analyst")
+    agent2 = Agent("Agent2", "Planner")
+    agent3 = Agent("Agent3", "Executor")
 
     env = Environment()
     env.add_agent(agent1)
